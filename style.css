@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hangman{
+    margin: auto;
+}
+
+.word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px ;
+    text-align: center;
+}
+
+.key{
+    font-size: 40px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    background:#81c784;
+    text-align: center;
+    margin: 2px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.key:hover{
+    cursor: pointer;
+    background: #4caf50;
+}
+
+.usedKey{
+    font-size: 40px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    background:#ccc;
+    text-align: center;
+    margin: 2px;
+    color: #fff;
+}
+
+.textCell{
+    font-size: 40px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-bottom: #4db6ac 3px solid;
+}
+
+.letter{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: #4db6ac;
+}
+
+
